@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.centerDiv {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+ }
+ 
+ main {
+     height: 100vh;
+ }
+ 
+ .inputBoxP {
+     display: flex;
+     align-items: flex-end;
+     gap: 15px;
+ }
+ 
+ .inputBoxP > button {
+     margin-bottom: 12px;
+ }
+
+ .wrapperDiv {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 150px;
+ }
+ .botButton > div {
+     margin-bottom: 35px;
+ }
+ .txnList > * {
+     margin: auto;
+     margin-top: 51px;
+ }
+ .buttonBots {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 35px;
+ }
